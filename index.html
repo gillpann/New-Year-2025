@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy New Year</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" sizes="32x32" href="assets/favicon-32.png">
+</head>
+<body>
+  <canvas id="fireworksCanvas"></canvas>
+  <div class="stars"></div>
+  <div class="message" data-aos="zoom-in-down" data-aos-duration="3000"> 
+    HAPPY NEW YEAR!
+    <div class="sub-message" data-aos="fade-up" data-aos-duration="3000">
+      2025
+    </div>
+  </div>
+  <div class="fireworks-note">
+    Click anywhere to launch fireworks!
+  </div>
+  <div class="watermark">
+    by: Ahmad Gilvan
+  </div>
+
+  <div class="greeting-container">
+    <button class="greeting-button" data-aos="zoom-in" data-aos-duration="3000">
+      Get a New Year Greeting
+    </button>
+    <div class="greeting-message"></div>
+    <div class="name-card">
+      <input class="name-input" type="text" placeholder="Enter your name" style="display:none;">
+      <button class="submit-name">Submit</button>
+      <button class="back-button">Back</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
